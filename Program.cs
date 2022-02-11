@@ -33,7 +33,7 @@ namespace sort
     public static void Main()
     {Stopwatch stopwatch = new Stopwatch();
     stopwatch.Start();
-        int []arr = {2000,1000,4000,8000, 9000 ,1000000, 2384234, 10,4,6,293,56,21,56};
+        int []arr = {2000,1000,4000,8000};
         bubbleSort(arr);
         
         stopwatch.Stop();
