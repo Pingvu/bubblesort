@@ -31,9 +31,14 @@ namespace sort
   
     
     public static void Main()
-    {Stopwatch stopwatch = new Stopwatch();
+    {int []arr = new int[1000];
+    Random rnd = new Random();
+    for (int i = 0; i < 1000; i++) {
+  arr[i] = rnd.Next(0,1000) ;
+}
+    
+        Stopwatch stopwatch = new Stopwatch();
     stopwatch.Start();
-        int []arr = {2000,1000,4000,8000};
         bubbleSort(arr);
         
         stopwatch.Stop();
