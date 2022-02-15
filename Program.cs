@@ -31,9 +31,9 @@ namespace sort
   
     
     public static void Main()
-    {int []arr = new int[1000];
+    {int []arr = new int[8000];
     Random rnd = new Random();
-    for (int i = 0; i < 1000; i++) {
+    for (int i = 0; i < 8000; i++) {
   arr[i] = rnd.Next(0,1000) ;
 }
     
